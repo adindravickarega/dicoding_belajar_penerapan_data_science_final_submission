@@ -92,28 +92,24 @@ Dashboard dibuat dengan program Metabase.
 Berdasarkan temuan EDA, berikut rekomendasi untuk institusi pendidikan Jaya Jaya Institut:
 
 1. Intervensi Akademik
+    Program Bimbingan Akademik: Fokus pada mahasiswa dengan nilai rendah di semester 1 karena mereka berisiko tinggi Dropout.
+    Berikan mentoring tambahan untuk mata kuliah dengan tingkat kegagalan tinggi.
 
-Program Bimbingan Akademik: Fokus pada mahasiswa dengan nilai rendah di semester 1 karena mereka berisiko tinggi Dropout.
-Berikan mentoring tambahan untuk mata kuliah dengan tingkat kegagalan tinggi.
 2. Sistem Peringatan Dini (Early Warning System):
+    Gunakan machine learning untuk memprediksi mahasiswa berisiko Dropout berdasarkan kinerja semester 1.
+    Berikan notifikasi kepada dosen/wali jika mahasiswa memiliki nilai di bawah ambang batas.
 
-Gunakan machine learning untuk memprediksi mahasiswa berisiko Dropout berdasarkan kinerja semester 1.
-Berikan notifikasi kepada dosen/wali jika mahasiswa memiliki nilai di bawah ambang batas.
-Dukungan Finansial
-
-3. Beasiswa & Bantuan Biaya Kuliah:
-Prioritaskan mahasiswa dari keluarga kurang mampu (Debtor = 1).
-Berikan penyelesaian biaya kuliah fleksibel untuk mengurangi tekanan finansial.
-Program Kerja Sambil Kuliah: Kolaborasi dengan industri untuk memberikan part-time job bagi mahasiswa yang membutuhkan.
+3. Dukungan Finansial (Beasiswa & Bantuan Biaya Kuliah):
+    Prioritaskan mahasiswa dari keluarga kurang mampu (Debtor = 1).
+    Berikan penyelesaian biaya kuliah fleksibel untuk mengurangi tekanan finansial.
+    Program Kerja Sambil Kuliah: Kolaborasi dengan industri untuk memberikan part-time job bagi mahasiswa yang membutuhkan.
 
 4. Peningkatan Keterlibatan Mahasiswa
-
-Tingkatkan Partisipasi Evaluasi: Mahasiswa yang tidak mengikuti evaluasi cenderung Dropout.
-Berikan insentif (poin tambahan, sertifikat) untuk meningkatkan kehadiran ujian.
-Kegiatan Non-Akademik:
+    Tingkatkan Partisipasi Evaluasi: Mahasiswa yang tidak mengikuti evaluasi cenderung Dropout.
+    Berikan insentif (poin tambahan, sertifikat) untuk meningkatkan kehadiran ujian.
 
 5. Program peer mentoring dan komunitas belajar untuk meningkatkan motivasi.
-6. Segmentasi Mahasiswa:
 
-7. Kelompokkan mahasiswa berdasarkan risiko Dropout (rendah, sedang, tinggi) dan berikan pendekatan berbeda.
-Dengan strategi ini, Jaya Jaya Institut dapat mengurangi tingkat Dropout dan meningkatkan keberhasilan mahasiswa.
+6. Segmentasi Mahasiswa:
+    Kelompokkan mahasiswa berdasarkan risiko Dropout (rendah, sedang, tinggi) dan berikan pendekatan berbeda.
+    Dengan strategi ini, Jaya Jaya Institut dapat mengurangi tingkat Dropout dan meningkatkan keberhasilan mahasiswa.
