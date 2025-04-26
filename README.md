@@ -54,14 +54,28 @@ Setup environment:
 Dashboard dibuat dengan program Metabase.
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
 
-```
+**Cara menjalankan prototype**:
+1. Secara online :
+    Streamlit App versi Cloud dapat diakses melalui link berikut :
+    https://adindravickarega-student-dropout-predict.streamlit.app/
 
-```
+2. Secara offline : 
+    1. Clone github repository :
+        ```
+        git clone https://github.com/adindravickarega/dicoding_belajar_penerapan_data_science_final_submission.git
+        ```
+    2. Pindah direktori :
+        ```
+        cd dicoding_belajar_penerapan_data_science_final_submission
+        ``` 
+    3. Jalankan command "streamlit run app.py"
+    4. Halaman web localhost akan muncul dari browser
+    5. Isi informasi yang dibutuhkan untuk melakukan prediksi status mahasiswa Dropout atau tidak
 
 ## Conclusion
 1. Persentase mahasiswa Dropout (DO) di Jaya Jaya Institut adalah 32.1%, yang dimana angka tersebut relatif tinggi dibandingkan dengan persentase kelulusan 49.9%.
+
 2. Mahasiswa yang Dropout memiliki:
    - Nilai lebih rendah (Curricular_units_1st/2nd_sem_grade) dibandingkan yang Graduate/Enrolled.
    - Jumlah mata kuliah yang disetujui (approved) lebih sedikit.
