@@ -51,7 +51,7 @@ Setup environment:
 ```
 
 ## Business Dashboard
-Dashboard dibuat dengan program Metabase.
+Dashboard dibuat dengan program Metabase dengan koneksi database PostgreSQL melalui Supabase (supabase.com).
 ![BusinessDashboardMetabase](https://github.com/adindravickarega/dicoding_belajar_penerapan_data_science_final_submission/blob/main/mahega_0107-dashboard.jpg)
 
 ## Menjalankan Sistem Machine Learning
