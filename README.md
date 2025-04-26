@@ -55,6 +55,8 @@ Dashboard dibuat dengan program Metabase dengan koneksi database PostgreSQL mela
 ![BusinessDashboardMetabase](https://github.com/adindravickarega/dicoding_belajar_penerapan_data_science_final_submission/blob/main/mahega_0107-dashboard.jpg)
 
 ## Menjalankan Sistem Machine Learning
+Sistem Machine Learning yang digunakan pada prototype Streamlit App yaitu menggunakan algoritma Random Forest Classifier dengan akurasi prediksi sebesar 87%.
+
 
 **Cara menjalankan prototype**:
 1. Secara online :
