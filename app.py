@@ -9,7 +9,7 @@ st.set_page_config(page_title="Student Dropout Predictor", layout="centered")
 @st.cache_resource
 def load_artifacts():
     preprocessor = joblib.load("model/preprocessor.pkl")
-    best_model = joblib.load("model/best_dropout_model.pkl")
+    best_model = joblib.load("model/gradient_boosting_dropout_model.pkl")
     return preprocessor, best_model
 
 # Load the artifacts
