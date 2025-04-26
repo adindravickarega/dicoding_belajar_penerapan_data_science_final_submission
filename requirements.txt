@@ -434,9 +434,7 @@ tensorflow-model-optimization==0.8.0
 tensorflow-object-detection-api==0.1.1
 tensorflow_decision_forests==1.8.1
 tensorflowjs==4.22.0
-tensorrt @ file:///D:/TensorRT-10.6.0.26.Windows.win10.cuda-11.8/TensorRT-10.6.0.26/python/tensorrt-10.6.0-cp311-none-win_amd64.whl#sha256=8e500b69dce758a3a60445d611ccccc43b4341822c0eb0724bdd95f6cd46ed5a
-tensorrt_dispatch @ file:///D:/TensorRT-10.6.0.26.Windows.win10.cuda-11.8/TensorRT-10.6.0.26/python/tensorrt_dispatch-10.6.0-cp311-none-win_amd64.whl#sha256=e762e1bc0e07639bd93340fc703a7cb266d30d8f93cfc189b65fbcfd2b89e3a4
-tensorrt_lean @ file:///D:/TensorRT-10.6.0.26.Windows.win10.cuda-11.8/TensorRT-10.6.0.26/python/tensorrt_lean-10.6.0-cp311-none-win_amd64.whl#sha256=f5322e5849cd302aef031e5539f618d22f3b6eeabbdadd2d6f089734649f943c
+tensorrt==10.6.0
 tensorstore==0.1.71
 termcolor==2.3.0
 terminado==0.17.1
