@@ -192,15 +192,15 @@ def main():
             input_df = pd.DataFrame([input_data])[selected_features]
 
             try:
-                # Preprocess input data
-                X_processed = preprocessor.transform(input_df)
+                # ❌ HAPUS baris transform manual
+                # X_processed = preprocessor.transform(input_df)
 
-                # Make prediction
-                prediction_proba = best_model.predict_proba(X_processed)[:, 1]
+                # ✅ LANGSUNG predict pakai best_model
+                prediction_proba = best_model.predict_proba(input_df)[:, 1]
                 dropout_risk = prediction_proba[0] * 100
-                prediction = best_model.predict(X_processed)
-                
-                # Determine risk level
+                prediction = best_model.predict(input_df)
+
+                # Risk level logic
                 if dropout_risk < 30:
                     risk_level = "Low Risk"
                     risk_class = "risk-low"
@@ -214,11 +214,10 @@ def main():
                     risk_class = "risk-high"
                     risk_icon = "❗"
 
-                # Display results with enhanced visuals
+                # Display results (tetap sama)
                 st.markdown("---")
                 st.markdown(f'<p class="header-style">📋 Prediction Results for {student_name if student_name else "Student"}</p>', unsafe_allow_html=True)
                 
-                # Create columns for metrics
                 col1, col2 = st.columns(2)
                 
                 with col1:
@@ -239,13 +238,12 @@ def main():
                         "Likely to Dropout" if prediction[0] == 1 else "Likely to Continue (Not Dropout)",
                         help="Model's final prediction")
                 
-                # Visual progress bar with color coding
                 st.progress(int(dropout_risk), text=f"Dropout Risk: {dropout_risk:.1f}%")
-                
-                # Risk interpretation and recommendations
+
+                # Recommendation (tetap sama)
                 st.markdown("---")
                 st.markdown('<p class="section-header">📝 Recommendations</p>', unsafe_allow_html=True)
-                
+
                 if prediction[0] == 1:
                     st.markdown(f"""
                     <div class="recommendation-box">
@@ -271,7 +269,7 @@ def main():
                         </ul>
                     </div>
                     """, unsafe_allow_html=True)
-            
+
             except Exception as e:
                 st.error(f"⚠️ Prediction error: {str(e)}")
                 st.info("Please ensure all input values are valid and try again.")
